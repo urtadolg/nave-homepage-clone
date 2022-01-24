@@ -1,0 +1,26 @@
+@import "../../styles";
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $primary;
+  padding: 2.5rem 3rem;
+  font-family: "Space Grotesk", sans-serif;
+
+  svg {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+  }
+}

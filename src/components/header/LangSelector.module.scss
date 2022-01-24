@@ -1,0 +1,19 @@
+@import "../../styles";
+
+.container {
+  display: flex;
+
+  .langOption {
+    &:first-child {
+      border-right: solid 1px $primary;
+      padding-right: 10px;
+    }
+    &:last-child {
+      padding-left: 10px;
+    }
+  }
+
+  span {
+    cursor: pointer;
+  }
+}
