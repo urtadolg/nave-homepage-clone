@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CSSTransition } from "react-transition-group";
@@ -7,6 +7,8 @@ import styles from "./Header.module.scss";
 import LangSelector from "./LangSelector";
 import NavLinks from "./NavLinks";
 import Menu from "./Menu";
+import Switch from "../ui/Switch";
+import ThemeContext from "../../store/theme-context";
 
 const Header = (props) => {
   const [menuIsOpened, setMenuIsOpened] = useState(false);
@@ -16,8 +18,16 @@ const Header = (props) => {
   const closeMenuHandler = () => {
     setMenuIsOpened(false);
   };
+
+  const themeCtx = useContext(ThemeContext);
+
+  const headerClasses =
+    themeCtx.theme === "Light"
+      ? `${styles.container} ${styles.containerLight}`
+      : `${styles.container} ${styles.containerDark}`;
+
   return (
-    <header className={styles.container}>
+    <header className={headerClasses}>
       <div className={styles.logo}>
         <svg width="35px" height="35px" viewBox="0 0 36 36" fill="none">
           <path
@@ -33,6 +43,7 @@ const Header = (props) => {
       <nav className={styles.nav}>
         <NavLinks className={styles.nav_links} />
         <LangSelector />
+        <Switch />
       </nav>
       <FontAwesomeIcon
         className={styles.menu}

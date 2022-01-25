@@ -3,5 +3,15 @@
   "nav_link_services": "services",
   "nav_link_process": "process",
   "nav_link_clients": "clients",
-  "nav_link_contact": "contact"
+  "nav_link_contact": "contact",
+
+  "main_header_nave_description": " is a digital product studio that designs, develops and delivers high-end digital experiences.",
+
+  "about_us_title": "// about us",
+  "about_us_description_p1": "Working with nave means that you meet people who care and collaborate with the ones who actually do the work.",
+  "about_us_description_p2": "We use technology and creativity to make digital products that reach people in more efficient and user-centered ways.",
+  "about_us_description_p3": "Our mission is to help companies to understand before acting, to act with precision and to profit from change.",
+  "about_us_quote": "If you are also moved by ideas, let's talk.",
+
+  "seneca_quote_text": "“Associate with people who are likely to improve you.”"
 }

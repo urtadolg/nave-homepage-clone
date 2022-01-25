@@ -1,16 +1,18 @@
 @import "../../styles";
 
 .container {
+  position: fixed;
+  z-index: 100;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  background-color: $white;
+
   height: 103px;
   width: 100%;
   padding: 32px 40px;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.158);
-  color: $primary;
 
   .nav {
     margin-left: auto;
@@ -30,4 +32,19 @@
       display: none;
     }
   }
+}
+
+.containerDark {
+  color: $primary-Dark;
+  background-color: $background-header-dark;
+  .logo {
+    path {
+      fill: $primary-Dark;
+    }
+  }
+}
+
+.containerLight {
+  color: $primary;
+  background-color: $white;
 }

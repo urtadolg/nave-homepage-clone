@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import i18next from "i18next";
 
+import ThemeContext from "../../store/theme-context";
 import styles from "./LangSelector.module.scss";
 
 const LangSelector = (props) => {
@@ -15,8 +16,15 @@ const LangSelector = (props) => {
     setIsPtSelected(false);
   };
 
+  const themeCtx = useContext(ThemeContext);
+
+  const langClasses =
+    themeCtx.theme === "Light"
+      ? `${styles.container} ${styles.containerLight}`
+      : `${styles.container} ${styles.containerDark}`;
+
   return (
-    <div className={styles.container}>
+    <div className={langClasses}>
       <span
         style={
           isPtSelected === true

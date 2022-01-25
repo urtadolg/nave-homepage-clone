@@ -17,3 +17,21 @@
     cursor: pointer;
   }
 }
+
+.containerDark {
+  color: $white;
+  .langOption {
+    &:first-child {
+      border-right-color: $primary-Dark;
+    }
+  }
+}
+
+.containerLight {
+  color: $primary;
+  .langOption {
+    &:first-child {
+      border-right-color: $primary;
+    }
+  }
+}

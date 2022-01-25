@@ -3,5 +3,15 @@
   "nav_link_services": "serviços",
   "nav_link_process": "processo",
   "nav_link_clients": "clientes",
-  "nav_link_contact": "contato"
+  "nav_link_contact": "contato",
+
+  "main_header_nave_description": " é um estúdio de produto digital que planeja, desenvolve e entrega experiências centradas no usuário.",
+
+  "about_us_title": "// sobre",
+  "about_us_description_p1": "Trabalhar com a nave.rs significa que você conhece e colabora com as pessoas que realmente fazem o trabalho.",
+  "about_us_description_p2": "Unimos tecnologia e criatividade para criar soluções digitais efetivas que se tornam memoráveis e impactam positivamente a vida das pessoas.",
+  "about_us_description_p3": "Nossa missão é ajudar empresas a entender antes de agir, a agir com precisão e a lucrar a partir de mudanças.",
+  "about_us_quote": "Se você também é movido por ideias, vamos conversar!",
+
+  "seneca_quote_text": "“Associe-se com pessoas que poderão te tornar um ser humano melhor.”"
 }

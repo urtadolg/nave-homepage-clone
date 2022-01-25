@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useTranslation } from "react-i18next";
 
 import styles from "./NavLinks.module.scss";
+import ThemeContext from "../../store/theme-context";
 
 const NavLinks = (props) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const themeCtx = useContext(ThemeContext);
+
+  const navLinksClasses =
+    themeCtx.theme === "Light"
+      ? `${styles.container} ${styles.containerLight}`
+      : `${styles.container} ${styles.containerDark}`;
+
   return (
-    <ul className={`${styles.container} ${props.className}`}>
+    <ul className={`${navLinksClasses} ${props.className}`}>
       <li>
         <a onClick={props.onClose ? props.onClose : null} href="#about_us">
           {t("nav_link_about_us")}

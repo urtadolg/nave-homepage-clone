@@ -1,2 +1,49 @@
 $white: white;
 $primary: #6600ca;
+
+$primary-Dark: white;
+
+$background-header-dark: #6600ca;
+
+$light-background: rgb(102, 0, 202);
+$dark-background: rgb(38, 32, 39);
+
+$Desaturated-Blue-Text: rgb(182, 182, 182);
+$Toggle-Dark: linear-gradient(
+  90deg,
+  rgba(209, 255, 240, 0.9) 0%,
+  rgba(105, 247, 199, 0.9) 100%
+);
+$Toggle-Light: #d1c9da;
+$Dark-Desaturated-Blue-Card-BG: hsl(228, 28%, 20%);
+$Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
+$Light-Grayish-Blue-Card-BG: hsl(227, 47%, 96%);
+
+$max-width: 1279px;
+
+$light-big-circle-background: radial-gradient(
+  30.88% 30.88% at 50% 50%,
+  rgba(105, 247, 199, 0.29) 0%,
+  rgba(105, 247, 199, 0.5) 100%
+);
+$dark-big-circle-background: radial-gradient(
+  30.88% 30.88% at 50% 50%,
+  rgba(102, 0, 202, 0.29) 0%,
+  rgba(102, 0, 202, 0.5) 100%
+);
+
+$light-small-circle-background: radial-gradient(
+  30.88% 30.88% at 50% 50%,
+  rgba(167, 108, 230, 0.22) 0%,
+  rgba(167, 108, 230, 0.4) 100%
+);
+$dark-small-circle-background: radial-gradient(
+  30.88% 30.88% at 50% 50%,
+  rgba(102, 0, 202, 0.2) 0%,
+  rgba(102, 0, 202, 0.4) 100%
+);
+
+$about-us-light-txt-color: rgb(68, 58, 108);
+$about-us-light-background: rgb(241, 230, 250);
+$about-us-dark-txt-color: rgba(211, 211, 211, 0.603);
+$about-us-dark-background: #452f5a;
