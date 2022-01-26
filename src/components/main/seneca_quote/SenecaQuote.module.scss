@@ -6,16 +6,49 @@
   font-size: 72px;
   font-family: "Space Grotesk";
   width: 100%;
-  height: 590px;
+  height: fit-content;
 
   .content {
     width: 1124px;
     padding: 104px 64px 159px 64px;
+    position: relative;
+
+    @media (max-width: 767px) {
+      font-size: 56px;
+      padding: 104px 32px 159px 32px;
+    }
 
     .author {
       font-family: "Manrope";
       font-size: 16px;
       font-weight: 700;
+    }
+
+    .message {
+      position: relative;
+      z-index: 10;
+    }
+
+    .circle {
+      position: absolute;
+      top: 50px;
+      left: 500px;
+      z-index: 0;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0)
+        radial-gradient(
+          30.88% 30.88%,
+          rgba(105, 247, 199, 0.118) 0%,
+          rgba(105, 247, 199, 0.2) 100%
+        )
+        repeat scroll 0% 0%;
+
+      @media (min-width: 767px) {
+        top: 120px;
+        left: -100px;
+      }
     }
   }
 }
@@ -27,6 +60,10 @@
 
     .author {
       color: #828093;
+    }
+
+    .circle {
+      background: #8280932f;
     }
   }
 }

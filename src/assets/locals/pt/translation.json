@@ -13,5 +13,23 @@
   "about_us_description_p3": "Nossa missão é ajudar empresas a entender antes de agir, a agir com precisão e a lucrar a partir de mudanças.",
   "about_us_quote": "Se você também é movido por ideias, vamos conversar!",
 
-  "seneca_quote_text": "“Associe-se com pessoas que poderão te tornar um ser humano melhor.”"
+  "seneca_quote_text": "“Associe-se com pessoas que poderão te tornar um ser humano melhor.”",
+
+  "services_title": "// serviços",
+  "services_discovery": "É um serviço de consultoria que analisa ideias, reúne dados, mapeia problemas a serem resolvidos e garante que os rumos futuros propostos tenham um valor real para o negócio, sejam desejáveis para os usuários, viáveis para a empresa e possíveis de serem desenvolvidos com a tecnologia disponível.",
+  "services_experience_and_product_design": "Uma equipe multidisciplinar que desenha e testa soluções observando a experiência que você deseja criar, avaliando possíveis novos recursos e novas oportunidades de negócios ao longo dos processos de design e prototipagem.",
+  "services_digital_products": "Trabalhamos em todas as etapas de desenvolvimento de produtos digitais e, a partir de um escopo validado, equipes dedicadas utilizam design e tecnologia para materializar as soluções desenhadas, fazendo entregas funcionais a cada duas semanas para validação.",
+  "services_outsourcing": "Atuamos como parceiro de produção digital para empresas, startups e agências. Formamos ou integramos equipes de design e tecnologia que atuam em projetos digitais, oferecendo habilidades técnicas especializadas para atender demandas pontuais ou/e de longo prazo, possibilitando maior poder de entrega.",
+
+  "process_title": "// processo",
+  "process_understand": "_entender",
+  "process_understand_description": "investigamos o problema e avaliamos o cenário atual.",
+  "process_explore": "_explorar",
+  "process_explore_description": "imaginamos possibilidades e planejamos maneiras de chegar a uma solução.",
+  "process_materialize": "_materializar",
+  "process_materialize_description": "Implementamos um plano / escopo validado.",
+  "process_improve": "_aprimorar",
+  "process_improve_description": "monitoramos e sugerimos oportunidades de melhoria.",
+
+  "clients": "// clientes"
 }

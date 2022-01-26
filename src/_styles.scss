@@ -1,12 +1,18 @@
 $white: white;
 $primary: #6600ca;
+$green: rgb(0, 234, 161);
 
 $primary-Dark: white;
 
 $background-header-dark: #6600ca;
 
+$dark-txt: rgba(211, 211, 211, 0.603);
+
 $light-background: rgb(102, 0, 202);
+$light-background2: rgb(241, 230, 250);
 $dark-background: rgb(38, 32, 39);
+$dark-background2: #452f5a;
+$dark-background3: #2d1c36;
 
 $Desaturated-Blue-Text: rgb(182, 182, 182);
 $Toggle-Dark: linear-gradient(
@@ -44,6 +50,12 @@ $dark-small-circle-background: radial-gradient(
 );
 
 $about-us-light-txt-color: rgb(68, 58, 108);
-$about-us-light-background: rgb(241, 230, 250);
-$about-us-dark-txt-color: rgba(211, 211, 211, 0.603);
-$about-us-dark-background: #452f5a;
+$about-us-light-background: $light-background2;
+$about-us-dark-txt-color: $dark-txt;
+$about-us-dark-background: $dark-background2;
+
+$services-light-background: $light-background2;
+$services-dark-background: $dark-background2;
+
+$process-light-background: $light-background;
+$process-dark-background: $dark-background;

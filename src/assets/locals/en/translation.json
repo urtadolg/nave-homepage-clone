@@ -13,5 +13,23 @@
   "about_us_description_p3": "Our mission is to help companies to understand before acting, to act with precision and to profit from change.",
   "about_us_quote": "If you are also moved by ideas, let's talk.",
 
-  "seneca_quote_text": "“Associate with people who are likely to improve you.”"
+  "seneca_quote_text": "“Associate with people who are likely to improve you.”",
+
+  "services_title": "// services",
+  "services_discovery": "It is a consulting service that analyzes ideas, gathers data, maps problems to be solved and guarantees that future proposed directions have a real business value, are desirable to users, viable for the company, and possible to be developed with the available technology.",
+  "services_experience_and_product_design": "A multidisciplinary team designs and tests solutions observing the experience you want to create, evaluating possible new features and new business opportunities throughout the design and prototyping processes.",
+  "services_digital_products": "We work at all stages of a product development process and from a validated scope, dedicated teams transform the designed solutions into digital products, making functional deliveries every two weeks for validation.",
+  "services_outsourcing": "We act as a digital production partner for corporations, start ups and agencies. We compose or integrate design and development teams working on digital projects, offering a specialized workforce to deal with demands and enable more delivery power.",
+
+  "process_title": "// process",
+  "process_understand": "_understand",
+  "process_understand_description": "we investigate the issue & assess the current scenario.",
+  "process_explore": "_explore",
+  "process_explore_description": "we imagine possibilities and plan ways to reach a solution.",
+  "process_materialize": "_materialize",
+  "process_materialize_description": "we implement a validated plan/scope.",
+  "process_improve": "_improve",
+  "process_improve_description": "we monitor and suggest improvement opportunities.",
+
+  "clients": "// clients"
 }

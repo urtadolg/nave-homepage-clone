@@ -28,7 +28,7 @@ const MainBanner = (props) => {
             <path
               d="M41 2L21 18L0.999999 2"
               stroke="white"
-              stroke-width="3"
+              strokeWidth="3"
             ></path>
           </svg>
         </a>

@@ -10,6 +10,9 @@ import Switch from "./components/ui/Switch";
 import LangSelector from "./components/header/LangSelector";
 import AboutUs from "./components/main/about-us/AboutUs";
 import SenecaQuote from "./components/main/seneca_quote/SenecaQuote";
+import Services from "./components/main/services/Services";
+import Process from "./components/main/process/Process";
+import Clients from "./components/main/clients/Clients";
 
 library.add(fab, faBars, faTimes);
 
@@ -24,12 +27,15 @@ function App() {
   return (
     <div style={{ backgroundColor: "lightGray" }}>
       {/* <Switch />
-      <LangSelector /> */}
-
+      <LangSelector />
+      */}
       <Header />
       <MainBanner />
       <AboutUs />
       <SenecaQuote />
+      <Services />
+      <Process />
+      <Clients />
     </div>
   );
 }

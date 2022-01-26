@@ -15,7 +15,7 @@ const AboutUs = (props) => {
       : `${styles.container} ${styles.containerDark}`;
 
   return (
-    <section className={aboutUsClasses}>
+    <section id="about_us" className={aboutUsClasses}>
       <div className={styles.content}>
         <h1 className={styles.title}>{t("about_us_title")}</h1>
         <div className={styles.desc_container}>

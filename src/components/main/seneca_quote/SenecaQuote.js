@@ -17,8 +17,9 @@ const SenecaQuote = (props) => {
   return (
     <section className={senecaQuoteClasses}>
       <div className={styles.content}>
-        <p>{t("seneca_quote_text")}</p>
+        <p className={styles.message}>{t("seneca_quote_text")}</p>
         <span className={styles.author}>_Seneca</span>
+        <div className={styles.circle} />
       </div>
     </section>
   );
