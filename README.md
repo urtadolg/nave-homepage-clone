@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Nave.rs clone
+
+Este projeto foi criado para a entrevista técnica na Nave.rs
+
+Preview: https://nave-clone-homepage.web.app
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
