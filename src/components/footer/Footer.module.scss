@@ -1,0 +1,78 @@
+@import "../../styles";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 79px 100px 53px 38px;
+  width: 100%;
+  height: 423px;
+  path {
+    fill: $white;
+  }
+
+  .quote_logo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 296px;
+    height: 100%;
+
+    h1 {
+      color: $footer-title-color;
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 64px;
+    }
+  }
+
+  .address_social_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .address_list_container {
+      .address_item {
+        margin-bottom: 20px;
+        h2,
+        p,
+        span {
+          font-size: 14px;
+        }
+        h2,
+        p {
+          color: $white;
+        }
+        span {
+          color: $green;
+        }
+      }
+    }
+
+    .social_list_container {
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap: 50px;
+    height: fit-content;
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .address_social_container {
+      gap: 20px;
+    }
+  }
+}
+
+.containerLight {
+  background: $footer-light-background;
+}
+
+.containerDark {
+  background: $footer-dark-background;
+}

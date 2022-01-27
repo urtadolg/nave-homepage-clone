@@ -6,6 +6,12 @@
   gap: 10px;
   font-weight: 700;
 
+  p {
+    @media (max-width: 1279px) {
+      display: none;
+    }
+  }
+
   .switchContainer {
     display: flex;
     flex-direction: row;

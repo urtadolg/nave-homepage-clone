@@ -3,9 +3,6 @@ $primary: #6600ca;
 $green: rgb(0, 234, 161);
 
 $primary-Dark: white;
-
-$background-header-dark: #6600ca;
-
 $dark-txt: rgba(211, 211, 211, 0.603);
 
 $light-background: rgb(102, 0, 202);
@@ -49,13 +46,44 @@ $dark-small-circle-background: radial-gradient(
   rgba(102, 0, 202, 0.4) 100%
 );
 
-$about-us-light-txt-color: rgb(68, 58, 108);
+$header-light-background: $white;
+$header-dark-background: $primary;
+$header-light-txt: $primary;
+$header-dark-txt: $primary-Dark;
+
+$about-us-light-txt: rgb(68, 58, 108);
 $about-us-light-background: $light-background2;
-$about-us-dark-txt-color: $dark-txt;
+$about-us-dark-txt: $dark-txt;
 $about-us-dark-background: $dark-background2;
+$about-us-dark-circle: radial-gradient(
+  30.88% 30.88% at 50% 50%,
+  rgba(167, 108, 230, 0.114) 0%,
+  rgba(167, 108, 230, 0.2) 100%
+);
+
+$clients-light-background: $white;
+$clients-dark-background: rgb(19, 19, 19);
 
 $services-light-background: $light-background2;
 $services-dark-background: $dark-background2;
 
 $process-light-background: $light-background;
 $process-dark-background: $dark-background;
+
+$contact-light-background: rgb(105, 247, 199);
+$contact-light-background2: rgb(241, 230, 250);
+$contact-dark-background: $dark-background2;
+$contact-dark-background2: $dark-background;
+$contact-light-txt: $primary;
+$contact-dark-txt: $white;
+$contact-light-circle: rgba(0, 0, 0, 0)
+  radial-gradient(
+    30.88% 30.88%,
+    rgba(167, 108, 230, 0.114) 0%,
+    rgba(167, 108, 230, 0.2) 100%
+  )
+  repeat scroll 0% 0%;
+
+$footer-light-background: $primary;
+$footer-dark-background: #131313;
+$footer-title-color: rgb(192, 152, 236);

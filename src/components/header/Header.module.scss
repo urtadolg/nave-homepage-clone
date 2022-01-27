@@ -34,17 +34,17 @@
   }
 }
 
-.containerDark {
-  color: $primary-Dark;
-  background-color: $background-header-dark;
-  .logo {
-    path {
-      fill: $primary-Dark;
-    }
-  }
+.containerLight {
+  color: $header-light-txt;
+  background-color: $header-light-background;
 }
 
-.containerLight {
-  color: $primary;
-  background-color: $white;
+.containerDark {
+  color: $header-dark-txt;
+  background-color: $header-dark-background;
+  .logo {
+    path {
+      fill: $header-dark-txt;
+    }
+  }
 }

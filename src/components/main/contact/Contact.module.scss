@@ -1,0 +1,69 @@
+@import "../../../styles";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 160px 4rem;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 996px;
+    gap: 30px;
+
+    .img_container {
+      img {
+        width: 100%;
+      }
+    }
+
+    .info_container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: fit-content;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .info_item {
+        h2 {
+          font-size: 14px;
+          font-weight: 700;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.containerLight {
+  background-color: $contact-light-background;
+
+  h2,
+  p {
+    color: $contact-light-txt;
+  }
+}
+
+.containerDark {
+  background-color: $contact-dark-background;
+
+  h1 {
+    color: $contact-dark-txt;
+  }
+
+  h2,
+  p {
+    color: $dark-txt;
+  }
+}

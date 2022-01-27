@@ -1,0 +1,80 @@
+@import "../../../styles";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 647px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  h1 {
+    font-size: 70px;
+    z-index: 10;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  button {
+    border: none;
+    padding: 1rem 3.5rem;
+    color: $white;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .circle {
+    position: absolute;
+    top: -115px;
+    left: -70px;
+    width: 615px;
+    height: 615px;
+    border-radius: 50%;
+    z-index: 0;
+  }
+
+  @media (max-width: 1279px) {
+    padding: 120px 0;
+    height: fit-content;
+    h1 {
+      font-size: 42px;
+    }
+    .circle {
+      width: 374px;
+      height: 374px;
+      left: unset;
+      right: -140px;
+    }
+  }
+}
+
+.containerLight {
+  background-color: $contact-light-background2;
+  button {
+    background-color: $primary;
+  }
+  .circle {
+    background: $contact-light-circle;
+  }
+}
+
+.containerDark {
+  background-color: $dark-background;
+  h1,
+  p {
+    color: $white;
+  }
+  button {
+    background-color: $light-background;
+  }
+  .circle {
+    background: $contact-light-circle;
+  }
+}

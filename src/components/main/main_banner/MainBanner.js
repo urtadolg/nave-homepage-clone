@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import { useTranslation } from "react-i18next";
 
 import styles from "./MainBanner.module.scss";
-import ThemeContext from "../../store/theme-context";
+import ThemeContext from "../../../store/theme-context";
 
-const MainBanner = (props) => {
+const MainBanner = () => {
   const themeCtx = useContext(ThemeContext);
 
   const mainBannerClasses =
@@ -12,7 +12,7 @@ const MainBanner = (props) => {
       ? `${styles.container} ${styles.containerLight}`
       : `${styles.container} ${styles.containerDark}`;
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section className={mainBannerClasses}>

@@ -3,16 +3,17 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-import Header from "./components/header/Header";
 import ThemeContext from "./store/theme-context";
-import MainBanner from "./components/main/MainBanner";
-import Switch from "./components/ui/Switch";
-import LangSelector from "./components/header/LangSelector";
-import AboutUs from "./components/main/about-us/AboutUs";
+import Header from "./components/header/Header";
+import MainBanner from "./components/main/main_banner/MainBanner";
+import AboutUs from "./components/main/about_us/AboutUs";
 import SenecaQuote from "./components/main/seneca_quote/SenecaQuote";
 import Services from "./components/main/services/Services";
 import Process from "./components/main/process/Process";
 import Clients from "./components/main/clients/Clients";
+import Contact from "./components/main/contact/Contact";
+import ContactUs from "./components/main/contact/ContactUs";
+import Footer from "./components/footer/Footer";
 
 library.add(fab, faBars, faTimes);
 
@@ -25,10 +26,7 @@ function App() {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "lightGray" }}>
-      {/* <Switch />
-      <LangSelector />
-      */}
+    <div>
       <Header />
       <MainBanner />
       <AboutUs />
@@ -36,6 +34,9 @@ function App() {
       <Services />
       <Process />
       <Clients />
+      <Contact />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }

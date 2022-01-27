@@ -31,5 +31,21 @@
   "process_improve": "_aprimorar",
   "process_improve_description": "monitoramos e sugerimos oportunidades de melhoria.",
 
-  "clients": "// clientes"
+  "clients": "// clientes",
+
+  "contact_title": "// contato",
+  "contact_information_title": "_INFORMAÇÕES GERAIS",
+  "contact_business_title": "_NEGÓCIOS",
+  "contact_jobs_title": "_VAGAS",
+  "contact_jobs_description": "veja as vagas",
+  "contact_partnerships_title": "_PARCERIAS",
+
+  "contact_us_title": "transforme ideias em soluções",
+  "contact_us_description": "comece essa transformação hoje",
+  "contact_us_btn_label": "entre em contato",
+
+  "footer_quote": "ideias nos movem.",
+  "footer_address_country": "Brasil",
+  "footer_address_street_pelotas": "Rua Antônio dos Anjos, 830",
+  "footer_address_street_porto_alegre": "Avenida Carlos Gomes, 1672"
 }

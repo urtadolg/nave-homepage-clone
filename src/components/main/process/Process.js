@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 import styles from "./Process.module.scss";
 import ThemeContext from "../../../store/theme-context";
 
-const Process = (props) => {
-  const { t, i18n } = useTranslation();
+const Process = () => {
+  const { t } = useTranslation();
   const themeCtx = useContext(ThemeContext);
 
   const processClasses =

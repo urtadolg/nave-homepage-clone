@@ -2,10 +2,11 @@
 
 .container {
   display: flex;
+  align-items: center;
 
   .langOption {
     &:first-child {
-      border-right: solid 1px $primary;
+      border-right: solid 1px $header-light-txt;
       padding-right: 10px;
     }
     &:last-child {
@@ -18,20 +19,19 @@
   }
 }
 
-.containerDark {
-  color: $white;
+.containerLight {
+  color: $header-light-txt;
   .langOption {
     &:first-child {
-      border-right-color: $primary-Dark;
+      border-right-color: $header-light-txt;
     }
   }
 }
-
-.containerLight {
-  color: $primary;
+.containerDark {
+  color: $header-dark-txt;
   .langOption {
     &:first-child {
-      border-right-color: $primary;
+      border-right-color: $header-dark-txt;
     }
   }
 }

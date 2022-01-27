@@ -31,5 +31,21 @@
   "process_improve": "_improve",
   "process_improve_description": "we monitor and suggest improvement opportunities.",
 
-  "clients": "// clients"
+  "clients": "// clients",
+
+  "contact_title": "// contact",
+  "contact_information_title": "_GENERAL ENQUIRIES",
+  "contact_business_title": "_NEW BUSINESS",
+  "contact_jobs_title": "_JOB & INTERN OPPORTUNITIES",
+  "contact_jobs_description": "see open positions",
+  "contact_partnerships_title": "_PARTNERSHIPS",
+
+  "contact_us_title": "let's make it happen",
+  "contact_us_description": "we are a message away",
+  "contact_us_btn_label": "get in touch",
+
+  "footer_quote": "ideas move us.",
+  "footer_address_country": "Brazil",
+  "footer_address_street_pelotas": "830, Antônio dos Anjos Street",
+  "footer_address_street_porto_alegre": "1672, Carlos Gomes Avenue"
 }

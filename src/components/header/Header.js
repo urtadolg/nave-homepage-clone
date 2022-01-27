@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CSSTransition } from "react-transition-group";
 
@@ -10,7 +9,7 @@ import Menu from "./Menu";
 import Switch from "../ui/Switch";
 import ThemeContext from "../../store/theme-context";
 
-const Header = (props) => {
+const Header = () => {
   const [menuIsOpened, setMenuIsOpened] = useState(false);
   const openMenuHandler = () => {
     setMenuIsOpened(true);

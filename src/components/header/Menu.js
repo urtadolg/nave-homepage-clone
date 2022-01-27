@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import styles from "./Menu.module.scss";
@@ -14,10 +15,15 @@ const Menu = (props) => {
       : `${styles.container} ${styles.containerDark}`;
 
   return (
-    <div className={menuClasses}>
-      <FontAwesomeIcon onClick={props.onClose} icon="times" size="2x" />
-      <NavLinks onClose={props.onClose} />
-    </div>
+    <React.Fragment>
+      {ReactDOM.createPortal(
+        <div className={menuClasses}>
+          <FontAwesomeIcon onClick={props.onClose} icon="times" size="2x" />
+          <NavLinks onClose={props.onClose} />
+        </div>,
+        document.getElementById("menu-hook")
+      )}
+    </React.Fragment>
   );
 };
 

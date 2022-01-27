@@ -75,14 +75,14 @@
 }
 
 .containerLight {
-  background-color: $white;
+  background-color: $clients-light-background;
   h1 {
     color: $primary;
   }
 }
 
 .containerDark {
-  background-color: rgb(19, 19, 19);
+  background-color: $clients-dark-background;
   h1 {
     color: $white;
   }

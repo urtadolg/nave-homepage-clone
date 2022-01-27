@@ -1,28 +1,26 @@
 import React, { useContext } from "react";
 import { useTranslation } from "react-i18next";
 
-import styles from "./SenecaQuote.module.scss";
+import styles from "./ContactUs.module.scss";
 import ThemeContext from "../../../store/theme-context";
 
-const SenecaQuote = () => {
+const ContactUs = () => {
   const { t } = useTranslation();
-
   const themeCtx = useContext(ThemeContext);
 
-  const senecaQuoteClasses =
+  const contactUsClasses =
     themeCtx.theme === "Light"
       ? `${styles.container} ${styles.containerLight}`
       : `${styles.container} ${styles.containerDark}`;
 
   return (
-    <section className={senecaQuoteClasses}>
-      <div className={styles.content}>
-        <p className={styles.message}>{t("seneca_quote_text")}</p>
-        <span className={styles.author}>_Seneca</span>
-        <div className={styles.circle} />
-      </div>
+    <section id="contactUs" className={contactUsClasses}>
+      <h1>{t("contact_us_title")}</h1>
+      <p>{t("contact_us_description")}</p>
+      <button>{t("contact_us_btn_label")}</button>
+      <div className={styles.circle} />
     </section>
   );
 };
 
-export default SenecaQuote;
+export default ContactUs;

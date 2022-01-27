@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 import styles from "./Services.module.scss";
 import ThemeContext from "../../../store/theme-context";
 
-const Services = (props) => {
-  const { t, i18n } = useTranslation();
+const Services = () => {
+  const { t } = useTranslation();
   const themeCtx = useContext(ThemeContext);
 
   const servicesClasses =

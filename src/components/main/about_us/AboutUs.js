@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import styles from "./AboutUs.module.scss";
 import ThemeContext from "../../../store/theme-context";
 
-const AboutUs = (props) => {
+const AboutUs = () => {
   const { t, i18n } = useTranslation();
 
   const themeCtx = useContext(ThemeContext);

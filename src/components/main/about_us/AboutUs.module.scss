@@ -48,6 +48,7 @@
       top: 360px;
       left: -50px;
       z-index: 0;
+      background: $about-us-dark-circle;
     }
   }
 
@@ -80,36 +81,24 @@
   }
 }
 
-.containerDark {
-  color: $primary_Dark;
-  background-color: $about-us-dark-background;
-
-  .desc {
-    color: $about-us-dark-txt-color;
-  }
-
-  .circle {
-    background: radial-gradient(
-      30.88% 30.88% at 50% 50%,
-      rgba(167, 108, 230, 0.114) 0%,
-      rgba(167, 108, 230, 0.2) 100%
-    );
-  }
-}
-
 .containerLight {
   color: $primary;
   background-color: $about-us-light-background;
 
   .desc {
-    color: $about-us-light-txt-color;
+    color: $about-us-light-txt;
+  }
+}
+
+.containerDark {
+  color: $primary_Dark;
+  background-color: $about-us-dark-background;
+
+  h1 {
+    color: $primary_Dark;
   }
 
-  .circle {
-    background: radial-gradient(
-      30.88% 30.88% at 50% 50%,
-      rgba(167, 108, 230, 0.114) 0%,
-      rgba(167, 108, 230, 0.2) 100%
-    );
+  .desc {
+    color: $about-us-dark-txt;
   }
 }
