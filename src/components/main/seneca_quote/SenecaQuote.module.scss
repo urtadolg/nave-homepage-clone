@@ -7,6 +7,7 @@
   font-family: "Space Grotesk";
   width: 100%;
   height: fit-content;
+  overflow: hidden;
 
   .content {
     width: 1124px;
@@ -14,6 +15,7 @@
     position: relative;
 
     @media (max-width: 767px) {
+      width: 100%;
       font-size: 56px;
       padding: 104px 32px 159px 32px;
     }
