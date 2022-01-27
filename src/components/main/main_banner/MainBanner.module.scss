@@ -67,6 +67,15 @@
       bottom: -370px;
     }
   }
+
+  @media (max-width: 767px) {
+    div {
+      .big_circle {
+        top: 300px;
+        left: -250px;
+      }
+    }
+  }
 }
 
 .containerDark {

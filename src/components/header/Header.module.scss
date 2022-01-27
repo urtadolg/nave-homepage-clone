@@ -3,12 +3,10 @@
 .container {
   position: fixed;
   z-index: 100;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
-
+  gap: 30px;
   height: 103px;
   width: 100%;
   padding: 32px 40px;
